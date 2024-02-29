@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        :root{
+            --co1: #d3d3d3;
+            --cor2: #fafad2;
+            --cor3: #0000ff;
+        }
+        table{
+            border-collapse: collapse;
+            width: 900px;
+            margin: auto;
+        }
+        th, td{
+            border: solid black 1px;
+        }
+        caption{
+            color: var(--cor3);
+            padding: 20px;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bolder;
+        }
+        div{
+            margin: auto;
+            text-align: center;
+        }
+        div.responsivo{
+           overflow-x: auto;
+        }
+        img{
+            padding: 20px;
+        }
+        p{
+            text-align: justify;
+            text-indent: 30px;
+            padding: 10px;
+        }
+        tbody>tr:hover{
+            background-color: #7a7ad2;
+            color: white;
+            font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tabela Responsiva</h1>
+    <div class="responsivo">
+        <table>
+            <caption>Faturamento Por Mês</caption>
+            <thead>
+                <tr style="background-color: var(--co1);">
+                    <th scope="col" rowspan="2">Produto</th>
+                    <th scope="colgroup" colspan="12">Mês</th>
+                </tr>
+                <tr style="background-color: var(--cor2);">
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Arooz</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Feijão</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Macarrão</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Carne Bovina</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Carne Suína</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Frango</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Ovos</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <picture>
+        <source media="(max-width: 600px)" srcset="vivatitude-300.jpeg" type="image/jpeg">
+        <img src="WhatsApp Image 2024-02-21 at 12.39.25.jpeg" alt="Vivatitude">
+    </picture>
+
+    
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum? Vero voluptas ipsam dolore veritatis modi aut, nesciunt natus magni optio totam maiores laudantium inventore est harum autem, accusantium excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam illum quidem velit vitae, hic, illo iusto, eum laboriosam modi facere est quia sunt maxime accusamus tempore voluptate corrupti amet in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi consectetur magnam tempora ex asperiores at optio perferendis deserunt, hic blanditiis laboriosam nobis nulla et officiis voluptatum mollitia, temporibus iste. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, obcaecati tempora. Qui, repellat error necessitatibus quam perferendis autem ratione expedita inventore illum facilis laboriosam harum. Doloribus similique minus consequatur. Suscipit.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum? Vero voluptas ipsam dolore veritatis modi aut, nesciunt natus magni optio totam maiores laudantium inventore est harum autem, accusantium excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam illum quidem velit vitae, hic, illo iusto, eum laboriosam modi facere est quia sunt maxime accusamus tempore voluptate corrupti amet in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi consectetur magnam tempora ex asperiores at optio perferendis deserunt, hic blanditiis laboriosam nobis nulla et officiis voluptatum mollitia, temporibus iste. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, obcaecati tempora. Qui, repellat error necessitatibus quam perferendis autem ratione expedita inventore illum facilis laboriosam harum. Doloribus similique minus consequatur. Suscipit.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum? Vero voluptas ipsam dolore veritatis modi aut, nesciunt natus magni optio totam maiores laudantium inventore est harum autem, accusantium excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam illum quidem velit vitae, hic, illo iusto, eum laboriosam modi facere est quia sunt maxime accusamus tempore voluptate corrupti amet in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi consectetur magnam tempora ex asperiores at optio perferendis deserunt, hic blanditiis laboriosam nobis nulla et officiis voluptatum mollitia, temporibus iste. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, obcaecati tempora. Qui, repellat error necessitatibus quam perferendis autem ratione expedita inventore illum facilis laboriosam harum. Doloribus similique minus consequatur. Suscipit.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum? Vero voluptas ipsam dolore veritatis modi aut, nesciunt natus magni optio totam maiores laudantium inventore est harum autem, accusantium excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam illum quidem velit vitae, hic, illo iusto, eum laboriosam modi facere est quia sunt maxime accusamus tempore voluptate corrupti amet in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi consectetur magnam tempora ex asperiores at optio perferendis deserunt, hic blanditiis laboriosam nobis nulla et officiis voluptatum mollitia, temporibus iste. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, obcaecati tempora. Qui, repellat error necessitatibus quam perferendis autem ratione expedita inventore illum facilis laboriosam harum. Doloribus similique minus consequatur. Suscipit.
+    </p>
+</body>
+</html>
